@@ -25,3 +25,7 @@ Repository use to support training
     - avec 1 version spécifique `git diff *ref*`
     - entre 2 versions `git diff *ref1..ref2` (notez la différence si vous inversez l'ordre des références)
     - en affichant les statistiques graphiquement les seuls fichiers modifier `git diff --stat` 
+- Visualisation des differences avec des versions en relatif
+    - Avec la derniere version `git diff HEAD`
+    - Avec l'avant derniere version `git diff HEAD^`
+    - Avec l'avant avant derniere version `git diff HEAD^^`
